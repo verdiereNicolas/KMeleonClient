@@ -71,6 +71,9 @@ echo -e "\e[33m Installation des drivers de caméra."
 echo -e "\e[36m"
 cd uEye-Linux-4.92.0-64 && sudo sh ueye_4.92.0.0_amd64.run
 
+git clone https://github.com/KMeleon-Team/KMInstaller.git
+tar xvf KMInstaller-master
+
 #options 
 #git clone https://github.com/FreeOpcUa/freeopcua.git
 
