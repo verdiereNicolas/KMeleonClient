@@ -66,14 +66,23 @@ echo -e "\e[32m Installation du système de gestion des fichiers réussie."
 echo -e "\e[33m Mise  à jour des liens du système."
 sudo ldconfig
 
+#installation KMeleon
+echo -e "\e[33m Téléchargement et installation de KMeleon."
+echo -e "\e[36m"
+
 git clone https://florian.dordain@tesseract-solutions.fr:Amiens2017!@github.com/KMeleon-Team/KMInstaller.git
+echo -e "\e[32m Téléchargement de KMeleon réussi."
+echo -e "\e[33m Installation de KMeleon."
+echo -e "\e[36m"
 tar xvf KMInstaller-master
+echo -e "\e[32m Installation de KMeleon réussi."
 
 #installation UEYE
 echo -e "\e[33m Installation des drivers de caméra."
 echo -e "\e[36m"
 
-cd KMInstaller-master && sudo sh ueye_4.93.0.989_amd64.run
+cd ..
+cd KMInstaller-master && git lfs checkout && git lfs fetch && sudo sh ueye_4.93.0.989_amd64.run
 
 
 #options 
