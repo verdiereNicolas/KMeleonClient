@@ -38,5 +38,5 @@ Write-host "KMeleon"
 start-process -FilePath "C:\Program Files\VcXsrv\xlaunch.exe" -ArgumentList "-run config.xlaunch"
 Start-Sleep -s 3
 
-start-process bash -Verb runas -ArgumentList "-file -c `"export DISPLAY=:0 && /home/tesseract/build-Kmeleon-Desktop-Release/KMeleon`""
+start-process bash -Verb runas -ArgumentList "-file -c `"export DISPLAY=:0 && /home/tesseract/KMInstaller-master/KMeleon`""
 Start-Sleep -s 15
