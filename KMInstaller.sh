@@ -66,13 +66,14 @@ echo -e "\e[32m Installation du système de gestion des fichiers réussie."
 echo -e "\e[33m Mise  à jour des liens du système."
 sudo ldconfig
 
+git clone https://florian.dordain@tesseract-solutions.fr:Amiens2017!@github.com/KMeleon-Team/KMInstaller.git
+tar xvf KMInstaller-master
+
 #installation UEYE
 echo -e "\e[33m Installation des drivers de caméra."
 echo -e "\e[36m"
 cd uEye-Linux-4.92.0-64 && sudo sh ueye_4.92.0.0_amd64.run
 
-git clone https://florian.dordain@tesseract-solutions.fr:Amiens2017!@github.com/KMeleon-Team/KMInstaller.git
-tar xvf KMInstaller-master
 
 #options 
 #git clone https://github.com/FreeOpcUa/freeopcua.git
