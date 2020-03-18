@@ -72,7 +72,8 @@ tar xvf KMInstaller-master
 #installation UEYE
 echo -e "\e[33m Installation des drivers de caméra."
 echo -e "\e[36m"
-cd uEye-Linux-4.92.0-64 && sudo sh ueye_4.92.0.0_amd64.run
+
+cd KMInstaller-master && sudo sh ueye_4.93.0.989_amd64.run
 
 
 #options 
